@@ -1,6 +1,6 @@
 {
   "name": "@apihero/core",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "The core types and functionality shared across API Hero",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -10,6 +10,13 @@
   },
   "keywords": [
     "API Hero"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
   "scripts": {
     "build": "tsc",
