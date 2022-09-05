@@ -1,0 +1,27 @@
+{
+  "name": "@apihero/core",
+  "version": "1.0.0-beta.0",
+  "description": "The core types and functionality shared across API Hero",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apihero-run/apihero-core.git"
+  },
+  "keywords": [
+    "API Hero"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Eric Allam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apihero-run/apihero-core/issues"
+  },
+  "homepage": "https://github.com/apihero-run/apihero-core#readme",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
