@@ -1,4 +1,4 @@
-export type ApiHeroEndpoint<Params, ResponseBody, Headers = unknown> = {
+export type ApiHeroEndpoint<TParams, TResponseBody, THeaders = unknown> = {
   id: string;
   [key: string]: string | number;
 };
